@@ -4,7 +4,7 @@ export default apiInitializer("1.15.0", (api) => {
   api.addPostAdminMenuButton(() => {
     return {
       action: ({ topic_id, post_number }) => {
-        const w = window.open(`/t/-/${topic_id}/print`, "_blank");
+        const w = window.open(`/t/-/${topic_id}/print?post_number=${post_number}`, "_blank");
 
         w.onbeforeprint = () => {
           const doc = w.document;
