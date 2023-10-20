@@ -1,0 +1,11 @@
+{
+  "about_url": "TODO: Put your theme's public repo or Meta topic URL here",
+  "license_url": "TODO: Put your theme's LICENSE URL here",
+  "assets": {
+  },
+  "name": "clean_export",
+  "component": true,
+  "modifiers": {
+    "svg_icons": ["print"]
+  }
+}

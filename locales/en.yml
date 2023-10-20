@@ -1,0 +1,5 @@
+en:
+  theme_metadata:
+    description: "A clean print export"
+  clean_export:
+    label: "Print Post"
