@@ -6,7 +6,7 @@ export default apiInitializer("1.15.0", (api) => {
       action: ({ topic_id, post_number }) => {
         const w = window.open(`/t/-/${topic_id}/print`, "_blank");
 
-        w.onload = () => {
+        w.onbeforeprint = () => {
           const doc = w.document;
 
           const style = doc.createElement("style");
