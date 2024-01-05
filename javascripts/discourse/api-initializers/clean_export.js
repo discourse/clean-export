@@ -17,6 +17,7 @@ export default apiInitializer("1.15.0", (api) => {
             footer,
             [role='navigation'],
             [itemprop='position'],
+            [role='complementary'],
             [itemprop='interactionStatistic'],
             .crawler-linkback-list,
             .crawler-post:not(#post_${post_number}) {
