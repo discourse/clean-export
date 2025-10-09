@@ -1,6 +1,6 @@
 import { apiInitializer } from "discourse/lib/api";
 
-export default apiInitializer("1.15.0", (api) => {
+export default apiInitializer((api) => {
   api.addPostAdminMenuButton(() => {
     return {
       action: ({ topic_id, post_number }) => {
